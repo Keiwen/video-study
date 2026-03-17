@@ -13,6 +13,7 @@ while (($file = readdir($handle)) !== false) {
 }
 closedir($handle);
 asort($videosList);
+$videosList = array_values($videosList);
 
 ?>
 <!DOCTYPE html>
