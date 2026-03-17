@@ -12,6 +12,7 @@ while (($file = readdir($handle)) !== false) {
     }
 }
 closedir($handle);
+asort($videosList);
 
 ?>
 <!DOCTYPE html>
